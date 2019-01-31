@@ -996,6 +996,7 @@ class Circle(_ShapeWithCenter, _ShapeWithOutline):
         """
         Returns an rg.Rectangle that encloses this Circle.
         """
+
         c1 = Point(self.center.x - self.radius,
                    self.center.y - self.radius)
         c2 = Point(self.center.x + self.radius,
